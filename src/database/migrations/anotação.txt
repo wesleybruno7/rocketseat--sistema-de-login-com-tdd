@@ -1,0 +1,11 @@
+Comando para criar uma migration
+yarn sequelize migration:create --name=nome-da-migration
+
+Comando para executar a migration
+yarn sequelize db:migrate
+
+Comando para executar o rollback
+yarn sequelize db:migrate:undo
+
+Comando para desfazer todas as migrations:
+sequelize db:migrate:undo:all
